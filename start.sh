@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/NavinReigns/Jvn_Advanced_Filter_Bot /AutoAnura
+  git clone https://github.com/NavinReigns/Jvn_Advanced_Filter_Bot /EvaMaria
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /AutoAnura
+  git clone $UPSTREAM_REPO /EvaMaria
 fi
-cd /AutoAnura
+cd /EvaMaria
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
