@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/NavinReigns/EvaMaria_URL_Shortner /AutoAnura
+  git clone https://github.com/NavinReigns/Jvn_Advanced_Filter_Bot /AutoAnura
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /AutoAnura
